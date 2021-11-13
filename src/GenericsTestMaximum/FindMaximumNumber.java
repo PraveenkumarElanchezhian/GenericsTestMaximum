@@ -19,6 +19,9 @@ public class FindMaximumNumber {
 		System.out.println("Maximum number is " + maximum(32, 26, 11));
 		System.out.println("Maximum number is " + maximum(13, 47, 29));
 		System.out.println("Maximum number is " + maximum(21, 48, 58));
-
+		System.out.println("*********************************");
+		System.out.println("Maximum float number is " + maximum(3.2, 2.6, 1.1));
+		System.out.println("Maximum float number is " + maximum(1.3, 4.7, 2.9));
+		System.out.println("Maximum float number is " + maximum(2.1, 4.8, 5.8));
 	}
 }
