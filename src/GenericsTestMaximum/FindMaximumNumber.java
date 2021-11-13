@@ -1,4 +1,5 @@
 package GenericsTestMaximum;
+
 import java.lang.String;
 import org.junit.Test;
 
@@ -23,5 +24,9 @@ public class FindMaximumNumber {
 		System.out.println("Maximum float number is " + maximum(3.2, 2.6, 1.1));
 		System.out.println("Maximum float number is " + maximum(1.3, 4.7, 2.9));
 		System.out.println("Maximum float number is " + maximum(2.1, 4.8, 5.8));
+		System.out.println("*********************************");
+		System.out.println("Maximum float number is " + maximum("Peach", "Apple", "Banana"));
+		System.out.println("Maximum float number is " + maximum("Apple", "Peach", "Banana"));
+		System.out.println("Maximum float number is " + maximum("Apple", "Banana", "Peach"));
 	}
 }
